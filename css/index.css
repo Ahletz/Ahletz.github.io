@@ -11,9 +11,10 @@
 
     padding: 60px 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     overflow: hidden;
+    display: flex;
 
 }
 
@@ -90,56 +91,43 @@ header .textos-header {
     font-size: 30px;
     font-weight: 300;
     color: #fff;
+    margin: 15px;
 }
 
-.Contenedor-personal {
-    display: flex;
-    justify-content: space-evenly;
+.tarjeta{
 
-}
-
-.imagen-personal{
-
-    width: 48%;
-}
-
-.Contenido-Text{
-
-font-size: 25px;
-font-weight: 300;
-
-}
-.Contenedor-Academico {
-    display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
 
 }
 
-.Imagen-Academico{
+.tarjeta:hover{
 
-    width: 20%;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    transform: translateY(-5%);
+}
+.tarjeta img{
+
+    width: 100%;
+    height: 200px;
 }
 
-.Contenedor-conocimientos {
-    display: flex;
-    justify-content: space-evenly;
+.tarjeta .contenido{
 
+    text-align: center;
+    padding: 10px;
 }
 
-.Imagen-conocimientos{
+.tarjeta .contenido p {
 
-    width: 15%;
-}
-
-.Contenedor-referencias {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.Imagen-Referencias{
-
-    width: 15%;
+    line-height: 1.5;
+    color: #6a6a6a;
 }
 
 footer{
